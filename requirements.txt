@@ -4,3 +4,7 @@ python-dotenv
 streamlit
 langsmith
 langchain
+langserve
+fastapi
+uvicorn
+sse_starlette
