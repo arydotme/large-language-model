@@ -12,12 +12,12 @@ app = FastAPI(
 
 model = ChatOllama(model = 'llama3.2:1b')
 
-prompt = ChatPromptTemplate.from_template("give me a essay about { topic }")
+prompt = ChatPromptTemplate.from_template("give me a joke about {topic} only in maximum twenty words")
 
 add_routes(
     app,
     prompt | model,
-    path="/essay"
+    path="/topic",
 )
 
 if __name__ == '__main__':
