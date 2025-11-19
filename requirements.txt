@@ -1,5 +1,6 @@
 langchain_core
 langchain_community
+langchain-classic
 python-dotenv
 streamlit
 langsmith
@@ -8,3 +9,7 @@ langserve
 fastapi
 uvicorn
 sse_starlette
+bs4
+pypdf
+chromadb
+ollama
